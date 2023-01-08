@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+/* font-family: 'Fuzzy Bubbles', cursive; */
+/* font-family: 'Silkscreen', cursive; */
+font-family: 'Ubuntu', sans-serif;
+transition: all 0.3s ease-in-out;
+
+
+}
+ul{
+   list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+body{
+background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+
+}
+h2{
+    color: #fff;
+    font-size: 2rem;
+}
+html{
+scroll-behavior: smooth;
+
+}

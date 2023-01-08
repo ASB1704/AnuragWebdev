@@ -1,0 +1,58 @@
+.skills {
+  min-height: 100vh;
+  display: flex;
+}
+.skills .skillright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  width: 50%;
+}
+.skills .skillright h1 {
+  font-family: "Silkscreen", cursive;
+  font-size: 3rem;
+}
+.skills .skillimgcont {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+}
+.skills .skillimgcont .skillimg {
+  width: 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.skills .skillimgcont .skillimg img {
+  width: 100%;
+}
+
+@media screen and (max-width: 786px) {
+  .skills {
+    flex-direction: column-reverse;
+    gap: 4rem;
+    justify-content: center;
+  }
+  .skills .skillright {
+    width: 100%;
+  }
+  .skills .skillimgcont {
+    width: 100%;
+    padding: 1rem;
+    justify-content: space-around;
+  }
+}
+@media screen and (max-width: 425px) {
+  .skills .skillimgcont .skillimg {
+    width: 5rem;
+  }
+}/*# sourceMappingURL=skill.css.map */
